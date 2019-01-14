@@ -2,16 +2,7 @@
 用于局域网内Android与Tomcat服务器通信，服务器上建了一个简单的servlet
 
 上代码：
-package firstServlet;
 
- import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
- import javax.servlet.http.HttpServletRequest;
- import javax.servlet.http.HttpServletResponse;
- import java.io.IOException;
- import java.io.PrintWriter;
- @WebServlet("/loginServlet")
 public class loginServlet extends HttpServlet { 
 
 	@Override 
